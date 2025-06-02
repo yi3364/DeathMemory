@@ -1,0 +1,11 @@
+# DeathMemory 配置文件
+# 所有功能均可开关
+
+features:
+  enable: true # 总开关
+  broadcast_head_location: true # 广播头颅生成坐标
+  custom_head_name: true # 头颅命名自定义
+  show_death_time: true # 头颅命名显示死亡时间
+  void_safe_spawn: true # 虚空死亡安全生成
+
+locale: zh_CN # 支持 zh_CN 或 en_US
