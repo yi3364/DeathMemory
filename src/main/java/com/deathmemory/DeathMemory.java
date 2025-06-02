@@ -5,7 +5,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.ResourceBundle;
 import java.util.Locale;
 import java.util.MissingResourceException;
-import org.bukkit.command.TabCompleter;
 
 public class DeathMemory extends JavaPlugin {
     private static DeathMemory instance;

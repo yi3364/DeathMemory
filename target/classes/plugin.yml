@@ -3,6 +3,7 @@ main: com.deathmemory.DeathMemory
 version: ${project.version}
 author: YourName
 description: 玩家死亡后生成头颅并收集掉落物，支持国际化与多功能开关。
+api-version: 1.20
 commands:
   deathmemory:
     description: 管理员功能命令，支持 records 子命令

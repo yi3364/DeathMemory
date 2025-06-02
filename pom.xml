@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.deathmemory</groupId>
     <artifactId>DeathMemory</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>DeathMemory</name>
     <description>玩家死亡后生成头颅并收集掉落物，支持国际化与多功能开关。</description>
