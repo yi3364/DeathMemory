@@ -1,0 +1,11 @@
+{
+  "template": "## 变更日志\n{{CHANGELOG}}\n",
+  "pr_template": "- PR: #{{NUMBER}} {{TITLE}} @{{AUTHOR}}",
+  "commit_template": "- {{MESSAGE}} ({{HASH}})",
+  "categories": [
+    { "title": "✨ 新功能", "labels": ["feature", "enhancement"] },
+    { "title": "🐛 修复", "labels": ["bug", "fix"] },
+    { "title": "📝 文档", "labels": ["docs"] },
+    { "title": "🔧 其他", "labels": ["chore", "refactor", "test"] }
+  ]
+}

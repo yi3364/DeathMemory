@@ -1,0 +1,18 @@
+# Release 说明模板
+# 可放在 .github/release.yml 或每次打 tag 时自定义 Release 描述
+
+name: DeathMemory v${{ github.ref_name }}
+
+body: |
+  ## DeathMemory 插件发布
+  - 版本: ${{ github.ref_name }}
+  - 兼容: Spigot/Paper 1.16+，推荐 1.21.4
+  - 依赖: JDK 17+
+  - 功能：
+    - 死亡后生成玩家头颅，掉落物一键提取
+    - 头颅右键打开箱子界面
+    - 管理员命令 /deathmemory records 或 /dm records
+    - 国际化与功能开关
+    - 持久化与自动构建
+  
+  **如有问题欢迎提交 issue！**
